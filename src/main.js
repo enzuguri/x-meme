@@ -112,7 +112,7 @@
           var cont = this.xtag.container;
 
           // Remove old phrases.
-          for (var p of cont.querySelectorAll('.phrase')) {
+          for (var p in cont.querySelectorAll('.phrase')) {
             p.parentNode.removeChild(p);
           }
 
